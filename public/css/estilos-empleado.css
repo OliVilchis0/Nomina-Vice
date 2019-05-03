@@ -1,0 +1,41 @@
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+.btnAgregarEmp:hover{
+	animation: bounce 1s;
+	background:#333;
+	color: white;
+}
+/*Tamaño del contenedor del boton agregar*/
+.conten_btn{
+	height: 100px;
+}
+/*Color azul de administrador*/
+.bg-azul{
+	background: #20a8d8;
+}
+.text-azul{
+	color: #20a8d8;
+}
+.border-azul{
+	border: 1px solid  #20a8d8;	
+}
+/*Evento del boton departamento*/
+.departamento:hover{
+	background: #333;
+	color: #fff;
+}

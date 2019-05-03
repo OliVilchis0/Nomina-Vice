@@ -1,0 +1,147 @@
+
+.boton{
+	background-attachment: scroll;
+	background-image: url(../img/img-login/fondo2.jpg);
+	background-position: center center;
+	background-repeat: none;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border: none;
+}
+input{
+	padding:10px;
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.img-login-0{
+	margin-left: 25%;
+	margin-top: 3%;
+}
+.img-login{
+	display: none;
+	height: 340px;
+}
+.ELogin{
+	background: rgb(255,255,255,.6);
+	width: 100%;
+	height: 420px;
+	margin-top: 7%;
+	margin-left: .2%;
+	border-radius: 2%;
+}
+
+.FLogin{
+	/*text-align: center;*/
+    background-attachment: scroll;
+	background-image: url(../img/img-login/fondo2.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 500px;
+}
+
+@media(max-width: 768px){
+	.img-login{
+		display: none;
+	}
+	.img-login-1{
+		display: none;
+	}
+
+}
+@media (min-width: 768px)  {
+	.img-login-0{
+		width: 40%;
+		margin-top: 40%;
+		margin-left: 30%;
+	}
+	.img-login{
+		display: none;
+	}
+	.img-login-1{
+		display: none;
+	}
+	.datos{
+		padding: 5%;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.ELogin{
+		background: transparent;
+		height: 480px;
+		width: 80%;	
+		margin-left: 10%;
+
+	}
+	.imagen{ 
+		/*background: rgb(255,255,255,.8);*/
+		margin-right: -57px;
+	}
+	.img-login{
+		display: block;
+		height: 450px;
+		padding: 0px;
+		margin:0px; 
+	}
+	.img-login-0{
+		display: none;
+	}
+
+	.img-login-1{
+		display: block;
+		margin-left: 30%;
+
+	}
+	.datos{
+		background: rgb(255,255,255,.6);
+		height: 450px;
+		padding: 5%;
+	}
+
+
+}
+@media (min-width: 1200px) {
+	.ELogin{
+		background: transparent;
+		height: 480px;
+		width: 80%;	
+		margin-left: 10%;
+
+	}
+	.imagen{ 
+		/*background: rgb(255,255,255,.8);*/
+		margin-right: -15px;
+	}
+	.img-login{
+		display: block;
+		height: 450px;
+		padding: 0px;
+		margin:0px; 
+	}
+	.img-login-0{
+		display: none;
+	}
+
+	.img-login-1{
+		margin-left: 35%;
+		margin-top: -10%;
+	}
+	.datos{
+		background: rgb(255,255,255,.6);
+		height: 450px;
+		padding: 10%;
+	}
+	.datos form{
+		padding: 5%;
+	}
+	
+}
